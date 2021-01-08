@@ -390,7 +390,7 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"dnsseed.pastel.network", ""};
+static const string mainnet_seeds[] = {"dnsseed.pastel.network", "13.59.218.7", ""};
 static const string testnet_seeds[] = {"testnet-dnsseed.pastel.network", ""};
 static const string *seeds = mainnet_seeds;
 
